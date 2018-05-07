@@ -1,1 +1,2 @@
-A package with convenience function that I use in all of my projects.
+A package with convenience functions that I used to reimplement in almost
+all of my projects.
