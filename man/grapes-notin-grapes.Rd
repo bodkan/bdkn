@@ -2,7 +2,7 @@
 % Please edit documentation in R/utils.R
 \name{\%notin\%}
 \alias{\%notin\%}
-\title{Convience function that is a complement to %in%.}
+\title{Convience function that is a complement to \%in\%.}
 \usage{
 x \%notin\% vec
 }
@@ -15,5 +15,5 @@ x \%notin\% vec
 Logical vector of the same length as x.
 }
 \description{
-Convience function that is a complement to %in%.
+Convience function that is a complement to \%in\%.
 }

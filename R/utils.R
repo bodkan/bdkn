@@ -6,13 +6,13 @@
 #' @param res PPI for rasterization.
 #'
 #' @export
-set_dim <- function(width, height, res) {
+set_dim <- function(width, height, res = 300) {
   options(repr.plot.width = width,
           repr.plot.height = height,
           repr.plot.res = res)
 }
 
-#' Convience function that is a complement to %in%.
+#' Convience function that is a complement to \%in\%.
 #'
 #' @param x Vector of elements to be matched.
 #' @param vec Vector of elements to be matched against.
@@ -20,6 +20,6 @@ set_dim <- function(width, height, res) {
 #' @return Logical vector of the same length as x.
 #'
 #' @export
-`%notin%` <- function(x, vec) {
+'%notin%' <- function(x, vec) {
   match(x, vec, nomatch = 0L) == 0L
 }
