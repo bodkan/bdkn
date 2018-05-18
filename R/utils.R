@@ -23,3 +23,15 @@ set_dim <- function(width, height, res = 150) {
 '%notin%' <- function(x, vec) {
   match(x, vec, nomatch = 0L) == 0L
 }
+
+#' Paste two strings using an infix operator.
+#'
+#' @param a Character string.
+#' @param b Character string.
+#'
+#'  @return Character string as paste0(a, b).
+#'
+#' @export
+`%+%` <- function(a, b) {
+  paste0(a, b)
+}

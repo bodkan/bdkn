@@ -5,7 +5,7 @@
 \title{Set dimensions and resolution of a plot in an R kernel-based Jupyter
 notebook.}
 \usage{
-set_dim(width, height, res = 300)
+set_dim(width, height, res = 150)
 }
 \arguments{
 \item{width}{Width in inches.}
