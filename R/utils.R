@@ -35,3 +35,13 @@ set_dim <- function(width, height, res = 150) {
 `%+%` <- function(a, b) {
   paste0(a, b)
 }
+
+#' Shortcut for suppressMessages().
+#' @param expr Expression to evaluate.
+#' @export
+sm <- function(expr) suppressMessages(expr)
+
+#' Shortcut for suppressPackageStartupMessages().
+#' @param expr Expression to evaluate.
+#' @export
+ssm <- function(expr) suppressPackageStartupMessages(expr)

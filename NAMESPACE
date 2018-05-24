@@ -3,3 +3,5 @@
 export("%+%")
 export("%notin%")
 export(set_dim)
+export(sm)
+export(ssm)
