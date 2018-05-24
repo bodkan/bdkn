@@ -2,6 +2,8 @@
 
 export("%+%")
 export("%notin%")
+export(bin_quantiles)
+export(bin_values)
 export(set_dim)
 export(sm)
 export(ssm)

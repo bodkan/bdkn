@@ -58,6 +58,8 @@ ssm <- function(expr) suppressPackageStartupMessages(expr)
 #' @param num_labels Label the bins with simple sequence of numbers?
 #'
 #' @return Factor of bins.
+#'
+#' @export
 bin_quantiles <- function(x, n, num_labels = FALSE) {
   breaks <- quantile(x, seq(0, 1, 1 / n))
   labels = if (num_labels) 1 : n else NULL
@@ -72,6 +74,8 @@ bin_quantiles <- function(x, n, num_labels = FALSE) {
 #'     the number of bins.
 #'
 #' @return Factor of bins.
+#'
+#' @export
 bin_values <- function(x, breaks) {
   cut(x, breaks, levels = breaks, include.lowest = TRUE)
 }
