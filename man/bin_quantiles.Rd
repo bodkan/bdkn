@@ -4,14 +4,14 @@
 \alias{bin_quantiles}
 \title{Split values into discrete, equal sized bins.}
 \usage{
-bin_quantiles(x, n, num_labels = FALSE)
+bin_quantiles(x, n, labels = NULL)
 }
 \arguments{
 \item{x}{Values to bin.}
 
 \item{n}{Number of bins.}
 
-\item{num_labels}{Label the bins with simple sequence of numbers?}
+\item{labels}{Label the bins with simple sequence of numbers?}
 }
 \value{
 Factor of bins.
