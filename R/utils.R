@@ -62,8 +62,7 @@ ssm <- function(expr) suppressPackageStartupMessages(expr)
 #' @export
 bin_quantiles <- function(x, n, labels = NULL) {
   breaks <- quantile(x, seq(0, 1, 1 / n))
-  if (!is.null(labels)) labels <- 1 : n
-  cut(x, breaks, levels = breaks, include.lowest = TRUE, labels = labels)
+  bin_values(x, breaks, labels)
 }
 
 

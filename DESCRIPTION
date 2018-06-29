@@ -1,4 +1,4 @@
-Package: bodkanr
+Package: bdkn
 Type: Package
 Title: A set of convenience functions for working with R
 Version: 0.1.0
