@@ -13,7 +13,7 @@ set_dim <- function(width, height, res = 150) {
 }
 
 
-#' Convience function that is a complement to \%in\%.
+#' Complementary function to \%in\%.
 #'
 #' @param x Vector of elements to be matched.
 #' @param vec Vector of elements to be matched against.
@@ -37,18 +37,6 @@ set_dim <- function(width, height, res = 150) {
 `%+%` <- function(a, b) {
   paste0(a, b)
 }
-
-
-#' Shortcut for suppressMessages().
-#' @param expr Expression to evaluate.
-#' @export
-sm <- function(expr) suppressMessages(expr)
-
-
-#' Shortcut for suppressPackageStartupMessages().
-#' @param expr Expression to evaluate.
-#' @export
-ssm <- function(expr) suppressPackageStartupMessages(expr)
 
 
 #' Split values into discrete, equal sized bins.
