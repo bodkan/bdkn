@@ -6,7 +6,7 @@
 #' @param res PPI for rasterization.
 #'
 #' @export
-set_dim <- function(width, height, res = 150) {
+set_dim <- function(width, height, res = 300) {
   options(repr.plot.width = width,
           repr.plot.height = height,
           repr.plot.res = res)
